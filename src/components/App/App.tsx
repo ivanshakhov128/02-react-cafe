@@ -1,9 +1,9 @@
 import { useState } from "react";
-import type { Votes, VoteType } from "../types/votes";
-import VoteOptions from "./VoteOptions";
-import VoteStats from "./VoteStats";
-import Notification from "./Notification";
-import css from "../css/App.module.css";
+import type { Votes, VoteType } from "../../types/votes";
+import VoteOptions from "../VoteOptions/VoteOptions";
+import VoteStats from "../VoteStats/VoteStats";
+import Notification from "../Notification/Notification";
+import css from "./App.module.css";
 
 function App() {
   const [votes, setVotes] = useState<Votes>({

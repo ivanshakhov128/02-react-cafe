@@ -1,4 +1,4 @@
-import css from "../css/CafeInfo.module.css";
+import css from "./CafeInfo.module.css";
 function CafeInfo() {
   return (
     <div className={css.container}>

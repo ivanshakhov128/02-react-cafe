@@ -1,4 +1,4 @@
-import css from "../css/VoteOptions.module.css";
+import css from "./VoteOptions.module.css";
 
 interface VoteOptionsProps {
   onVote: (type: "good" | "neutral" | "bad") => void;
