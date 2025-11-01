@@ -4,6 +4,7 @@ import VoteOptions from "../VoteOptions/VoteOptions";
 import VoteStats from "../VoteStats/VoteStats";
 import Notification from "../Notification/Notification";
 import css from "./App.module.css";
+import CafeInfo from "../CafeInfo/CafeInfo";
 
 function App() {
   const [votes, setVotes] = useState<Votes>({
@@ -29,7 +30,7 @@ function App() {
 
   return (
     <div className={css.app}>
-      <h1>Sip Happens Café - Feedback</h1>
+      <CafeInfo />
 
       <VoteOptions
         onVote={handleVote}
